@@ -107,7 +107,7 @@ onCreate={getData}
     )}
 
     {status === LOAD_STATUS.SUCCESS && 
-    !data.isEmpty === false &&
+    data.isEmpty === false &&
     data.reply.map((item) => (
         <Fragment key={item.id}>
 <Box>
